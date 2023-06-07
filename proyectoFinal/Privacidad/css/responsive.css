@@ -1,0 +1,688 @@
+@media screen and (max-width:650px) {
+    *{
+        padding: 0;
+        margin: 0;
+        border: solid red px;
+    }
+    
+    @font-face {
+        font-family: Outfit;
+        src: url(../font/Outfit-Regular.ttf);
+    }
+    
+    body{
+        font-family: Outfit;
+        max-width: 100%;
+        max-height: 100%;
+        overflow-x: hidden;
+    }
+    
+    
+    .web{
+        height: 100vh;
+    }
+    
+    /* Header con inicio y menú*/
+    
+    .top{
+        display: flex;
+        background-color: white;
+        height: 3vw;
+    }
+    
+    .redes{
+        width: 2.3%;
+        position: absolute;
+        top: 0.4vw;
+        right: 7%;
+    }
+    
+    .redes1{
+        width: 2.3%;
+        position: absolute;
+        top: 0.4vw;
+        right: 4%;
+    }
+    
+    .redes2{
+        width: 2.3%;
+        position: absolute;
+        top: 0.4vw;
+        right: 1%;
+    }
+    
+    .header{
+        height: 4vw;
+        display: flex;
+        width: 100%;
+        border-top: solid black 1px;
+    }
+
+    .hleft a{
+        display: none;
+    }
+    
+    .hleft a.icon{
+        font-size: 2.5vw;
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: -30px;
+        border: none;
+    }
+
+    .hleftresponsive a.icon{
+        display: block;
+        font-size: 2.5vw;
+        position:absolute;
+        left: 5px;
+        top: 2px;
+    }
+
+    .hleftresponsive{
+        position: relative;
+        margin-right: 26.6%;
+        background-color: white;
+        width: 15%;
+        height: 110px;
+        border: solid black 2px;
+        font-size: 2.5vw;
+    }
+
+    .hleftresponsive a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .hleftresponsive a.r{
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 10px;
+    }
+
+    .hleftresponsive a.d{
+        position: absolute;
+        top: 45px;
+        left: 10px;
+    }
+
+    .hleftresponsive a.z{
+        position: absolute;
+        top: 65px;
+        left: 10px;
+    }
+
+    .hleftresponsive a.ac{
+        position: absolute;
+        top: 85px;
+        left: 10px;
+    }
+
+    .hleftresponsive a.r:hover{
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 10px;
+        font-weight: bold;
+    }
+
+    .hleftresponsive a.d:hover{
+        position: absolute;
+        top: 45px;
+        left: 10px;
+        font-weight: bold;
+    }
+
+    .hleftresponsive a.z:hover{
+        position: absolute;
+        top: 65px;
+        left: 10px;
+        font-weight: bold;
+    }
+
+    .hleftresponsive a.ac:hover{
+        position: absolute;
+        top: 85px;
+        left: 10px;
+        font-weight: bold;
+    }
+    
+    .hleft1{
+        width: 40%;
+        text-align: center;
+        display: flex;
+    }
+    
+    .hleft>a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.8vw;
+        padding: 1%;
+        margin-left: 5%;
+    }
+    
+    .hleft:hover{
+        color: black;
+        font-weight: bold;
+    }
+    
+    .hright{
+        width: 60%;
+        display: flex;
+    }
+    
+    .logo{
+        width: 3vw;
+        margin: 2%;
+    }
+    
+    .enl{
+        text-decoration: none;
+        color: black;
+        display: flex;
+        margin-left: 7%;
+    }
+    
+    .enl:hover{
+        font-weight: bold;
+    }
+    
+    .title{
+        font-size: 2.5vw;
+        margin-top: 1.5%;
+        margin-left: 2%;
+    }
+    
+    .boton2{
+        border: solid black 2px;
+        color: black;
+        text-decoration: none;
+        padding: 8%;
+    }
+    
+    .a2{
+        font-size: 1.3vw;
+        margin-top: 1%;
+    }
+    
+    .a2:hover{
+        background-color: rgb(46, 46, 46);
+        color: white;
+    }
+    
+    .boton:hover {
+        background-color: rgb(59, 59, 59);
+    }
+    
+    .boton2:hover {
+        background-color: rgb(59, 59, 59);
+    }
+    
+    .posbot{
+        margin-top: 2%;
+        margin-left: 40%;
+        display: flex;
+        width: 10%;
+    }
+    
+    /* Contenido de la web*/
+    
+    .cuerpo{
+        background-color: white;
+        height: 185vh;
+    }
+    
+    .ci{
+        background-color: white;
+        height: 7vw;
+        text-align: center;
+        background: linear-gradient(to bottom right, rgb(192, 0, 0),rgb(0, 0, 255));
+    }
+    
+    .nov{
+        font-size: 3vw;
+        padding-top: 1.5%;
+    }
+    
+    .cm{
+        height: 55vw;
+        display: block;
+    }
+    
+    .ltop{
+        margin-left: 5%;
+        width: 90%;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
+    .imgh{
+        width: 93%;
+    }
+    
+    .imgh2{
+        width: 83.5%;
+    }
+    
+    .cm2{
+        text-align: center;
+        margin-top: 125.2vw;
+    }
+    
+    .cm2 >a :hover{
+        opacity: 0.8;
+        width: 60%;
+    }
+    
+    .ltop >a :hover{
+        opacity: 0.8;
+        width: 85%;
+    }
+    .rtop >a :hover{
+        opacity: 0.8;
+        width: 85%;
+    }
+    
+    .rtop{
+        margin-left: 5%;
+        width: 90%;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
+    /* Pie de pagina con politicas etc*/
+    
+    .pie{
+        background-color: black;
+        height: 10.45vw;
+    }
+    
+    .p1{
+        font-size: 1.2vw;
+        padding-top: 1.5%;
+        margin-left: 2%;
+    }
+    .a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .a:hover{
+        font-weight: bold;
+        border-bottom: solid white 2px;
+    }
+    
+    .a:hover{
+        font-weight: bold;
+        border-bottom: solid white 2px;
+    }
+}
+
+@media screen and (max-width:2085px) {
+    .pie{
+        margin-top: 60vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:1930px) {
+    .pie{
+        margin-top: 80vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:1650px) {
+    .pie{
+        margin-top: 100vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:1510px) {
+    .pie{
+        margin-top: 120vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:1370px) {
+    .pie{
+        margin-top: 140vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:1270px) {
+    .pie{
+        margin-top: 160vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    .pie{
+        margin-top: 180vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:1115px) {
+    .pie{
+        margin-top: 210vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:1035px) {
+    .pie{
+        margin-top: 240vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .pie{
+        margin-top: 270vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .pie{
+        margin-top: 300vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:875px) {
+    .pie{
+        margin-top: 350vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+@media screen and (max-width:815px) {
+    .pie{
+        margin-top: 400vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:766px) {
+    .pie{
+        margin-top: 450vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:722px) {
+    .pie{
+        margin-top: 550vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:662px) {
+    .pie{
+        margin-top: 650vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:651px) {
+    .pie{
+        margin-top: 750vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:624px) {
+    .pie{
+        margin-top: 850vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:583px) {
+    .pie{
+        margin-top: 950vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .pie{
+        margin-top: 1050vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:525px) {
+    .pie{
+        margin-top: 1150vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:505px) {
+    .pie{
+        margin-top: 1250vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:481px) {
+    .pie{
+        margin-top: 1350vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:466px) {
+    .pie{
+        margin-top: 1450vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:447px) {
+    .pie{
+        margin-top: 1550vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:433px) {
+    .pie{
+        margin-top: 1650vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:422px) {
+    .pie{
+        margin-top: 1850vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .pie{
+        margin-top: 2000vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:385px) {
+    .pie{
+        margin-top: 2160vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .pie{
+        margin-top: 2300vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:358px) {
+    .pie{
+        margin-top: 2470vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:348px) {
+    .pie{
+        margin-top: 2600vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:338px) {
+    .pie{
+        margin-top: 2750vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:329px) {
+    .pie{
+        margin-top: 2900vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:322px) {
+    .pie{
+        margin-top: 3000vw;
+        background-color: black;
+        height: 10.45vw;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .hleft a.icon{
+        font-size: 2.5vw;
+        display: block;
+        position: absolute;
+        top: 12px;
+        left: -26px;
+        border: none;
+    }
+
+    .hleftresponsive a.icon{
+        display: block;
+        font-size: 2.5vw;
+        position:absolute;
+        left: 2px;
+        top: 1px;
+    }
+
+    .hleftresponsive{
+        position: relative;
+        margin-right: 26.6%;
+        background-color: white;
+        width: 15%;
+        height: 105px;
+        border: solid black 2px;
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .hleft a.icon{
+        font-size: 2.5vw;
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: -24px;
+        border: none;
+    }
+
+    .hleftresponsive a.icon{
+        display: block;
+        font-size: 2.5vw;
+        position:absolute;
+        left: 2px;
+        top: 1px;
+    }
+
+    .hleftresponsive{
+        position: relative;
+        margin-right: 26.6%;
+        background-color: white;
+        width: 15%;
+        height: 105px;
+        border: solid black 2px;
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .hleft a.icon{
+        font-size: 2.5vw;
+        display: block;
+        position: absolute;
+        top: 8px;
+        left: -20px;
+        border: none;
+    }
+
+    .hleftresponsive a.icon{
+        display: block;
+        font-size: 2.5vw;
+        position:absolute;
+        left: 2px;
+        top: 1px;
+    }
+
+    .hleftresponsive{
+        position: relative;
+        margin-right: 26.6%;
+        background-color: white;
+        width: 16%;
+        height: 100px;
+        border: solid black 2px;
+        font-size: 2.5vw;
+    }
+}
