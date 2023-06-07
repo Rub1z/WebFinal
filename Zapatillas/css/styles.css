@@ -1,0 +1,211 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: solid red px;
+}
+
+@font-face {
+	font-family: Outfit;
+	src: url(../font/Outfit-Regular.ttf);
+}
+
+body{
+	font-family: Outfit;
+	max-width: 100%;
+	max-height: 100%;
+	overflow-x: hidden;
+}
+
+
+.web{
+	height: 100vh;
+}
+
+/* Header con inicio y menú*/
+
+.top{
+	display: flex;
+	background-color: white;
+	height: 3vw;
+}
+
+.redes{
+	width: 2.3%;
+	position: absolute;
+	top: 0.4vw;
+	right: 7%;
+}
+
+.redes1{
+	width: 2.3%;
+	position: absolute;
+	top: 0.4vw;
+	right: 4%;
+}
+
+.redes2{
+	width: 2.3%;
+	position: absolute;
+	top: 0.4vw;
+	right: 1%;
+}
+
+.header{
+	height: 4vw;
+	display: flex;
+	width: 100%;
+	border-top: solid black 1px;
+}
+
+.hleft .icon{
+    display: none;
+}
+
+.hleft{
+	overflow: hidden;
+	width: 40%;
+	text-align: center;
+	display: flex;
+}
+
+.hleft a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 1.8vw;
+	padding-top: 2%;
+	margin-left: 5%;
+}
+
+.hleft :hover{
+	color: black;
+	font-weight: bold;
+	border-bottom: solid black 2px;
+}
+
+.hright{
+	width: 60%;
+	display: flex;
+}
+
+.logo{
+	width: 3vw;
+	margin: 2%;
+}
+
+.enl{
+	text-decoration: none;
+	color: black;
+	display: flex;
+	margin-left: 7%;
+}
+
+.enl :hover{
+	font-weight: bold;
+}
+
+.title{
+	font-size: 2.5vw;
+	margin-top: 1.5%;
+	margin-left: 2%;
+}
+
+/* Contenido de la web*/
+
+.cuerpo{
+	background-color: white;
+	height: 78vw;
+}
+
+.ci{
+	background-color: white;
+	height: 7vw;
+	text-align: center;
+	background: linear-gradient(to bottom right, rgb(192, 0, 0),rgb(0, 0, 255));
+}
+
+.nov{
+	font-size: 3vw;
+	padding-top: 1.5%;
+}
+
+.flex{
+	display: flex;
+	padding: 1%;
+}
+
+.rop{
+	margin: 2%;
+	text-align: center;
+	width: 33%;
+	height: 24vw;
+	border: solid rgb(180, 180, 180) 1px;
+}
+
+.rop:hover{
+	border: solid black 2px;
+}
+
+.img{
+	width: 60%;
+	margin-bottom: 7%;
+}
+
+.imr{
+	width: 90%;
+	margin-bottom: 7%;
+}
+
+.ima{
+	margin-top: 1%;
+	width: 60%;
+	margin-bottom: 7%;
+}
+
+.texto{
+	font-size: 1.5vw;
+}
+
+.precio{
+	margin-top: 1%;
+	font-size: 1vw;
+}
+
+.at{
+	margin-top: 1%;
+	text-align: center;
+	font-size: 1vw;
+}
+
+.ats{
+	text-decoration: none;
+	color: black;
+}
+
+.ats:hover{
+	font-weight: bold;
+	border-bottom: solid black 2px;
+}
+
+/* Pie de pagina con politicas etc*/
+
+.pie{
+	margin-top: 30vw;
+	background-color: black;
+	height: 20%;
+}
+
+.p1{
+	font-size: 1.2vw;
+	padding-top: 1.5%;
+	margin-left: 2%;
+}
+.a{
+	text-decoration: none;
+	color: white;
+}
+
+.a:hover{
+	font-weight: bold;
+	border-bottom: solid white 2px;
+}
